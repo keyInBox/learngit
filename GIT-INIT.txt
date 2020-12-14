@@ -37,3 +37,23 @@ updating local tracking ref 'refs/remotes/origin/develop'
 
 
 执行成功
+
+##新分支 feature
+git flow feature start feature_TYJ_开发GIT文档 develop
+Switched to a new branch 'feature/feature_TYJ_开发GIT文档'
+
+Summary of actions:
+- A new branch 'feature/feature_TYJ_开发GIT文档' was created, based on 'develop'
+
+
+- You are now on branch 'feature/feature_TYJ_开发GIT文档'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish feature_TYJ_开发GIT文档
+
+
+
+
+
+执行成功
