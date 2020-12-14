@@ -1,0 +1,39 @@
+##初始化GIT
+git flow init -d
+Using default branch names.
+
+Which branch should be used for bringing forth production releases?
+
+   - master
+Branch name for production releases: [master] 
+Branch name for "next release" development: [develop] 
+
+How to name your supporting branch prefixes?
+
+Feature branches? [feature/] 
+Bugfix branches? [bugfix/] 
+Release branches? [release/] 
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix? [] 
+Hooks and filters directory? [D:/Yuan/03-学习/02-极客时间/learngit/.git/hooks] 
+执行成功
+
+##提交GIT
+git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks push -v --tags --set-upstream origin develop:develop
+POST git-receive-pack (202 bytes)
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:        
+remote:      https://github.com/keyInBox/learngit/pull/new/develop        
+remote: 
+
+
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+Pushing to https://github.com/keyInBox/learngit
+To https://github.com/keyInBox/learngit
+ * [new branch]      develop -> develop
+updating local tracking ref 'refs/remotes/origin/develop'
+
+
+
+执行成功
